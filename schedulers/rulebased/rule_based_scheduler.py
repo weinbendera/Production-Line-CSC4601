@@ -4,7 +4,7 @@ from typing import Dict, List, Optional, Tuple
 
 from factory.factory_state import FactoryState
 from factory.factory_schemas import Action, FeasibleAction, Job
-from factory.schedulers.scheduler import OnlineScheduler
+from schedulers.scheduler import OnlineScheduler
 
 
 class RuleBasedScheduler(OnlineScheduler):

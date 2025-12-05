@@ -1,4 +1,4 @@
-from factory.schedulers.scheduler import OnlineScheduler
+from schedulers.scheduler import OnlineScheduler
 from factory.factory_schemas import Machine, Job, Action
 from typing import List, Dict, Optional, Any
 from factory.factory import Factory
